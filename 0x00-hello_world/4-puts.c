@@ -1,5 +1,7 @@
 #include <stdio.h>
-/*Main(void is the starting point to be included first*/
+/**
+ * Main(void) - Entry point
+ */
 int main(void)
 	/**
 	 * main - Entry point
