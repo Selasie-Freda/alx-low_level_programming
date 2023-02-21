@@ -3,6 +3,8 @@
 /**
  * Description - checks if input is lowercase alphabet
  *
+ * _islower: defines the function
+ * c: parameter
  * Return: 1 if input is lowercase 0 if not
  */
 int _islower(int c)
