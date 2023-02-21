@@ -1,11 +1,11 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * Description - checks if input is lowercase alphabet
+ * _islower - checks for lowercase alphabet
+ * @c: the character to check
  *
- * _islower: defines the function
- * c: parameter
- * Return: 1 if input is lowercase 0 if not
+ * Return: 1 on success (if lowercase)
+ * else return 0
  */
 int _islower(int c)
 {
