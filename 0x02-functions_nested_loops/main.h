@@ -39,14 +39,14 @@ void print_alphabet_x10(void);
  */
 void print_alphabet_x10(void)
 {
-	int i, repeat;
+	int x, repeat;
 
 	repeat = 0;	/*number of times to print to screen*/
 
 	while (repeat < 10)
 	{
-		for (i = 'a'; i <= 'z'; i++)
-			_putchar(i);
+		for (x = 'a'; x <= 'z'; x++)
+			_putchar(x);
 			_putchar('\n');
 			repeat++;
 	}
