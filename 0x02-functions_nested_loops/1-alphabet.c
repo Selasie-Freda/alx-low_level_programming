@@ -1,9 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: always 0
- * Description: prints alphabets to the screen
+ * print_alphabet - prints lowercase alphabets to screen
  */
 void print_alphabet(void)
 {
