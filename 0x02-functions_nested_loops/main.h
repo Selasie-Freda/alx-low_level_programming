@@ -11,7 +11,7 @@ int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
-
+/*
 void print_alphabet(void);
 
 /**
@@ -19,6 +19,7 @@ void print_alphabet(void);
  *
  * Return: void so 0 on success
  */
+/*
 void print_alphabet(void)
 {
 	int i;
@@ -37,17 +38,18 @@ void print_alphabet_x10(void);
  *
  * Return: void
  */
+/*
 void print_alphabet_x10(void)
 {
 	int x, repeat;
 
 	repeat = 0;	/*number of times to print to screen*/
 
-	while (repeat < 10)
+/*	while (repeat < 10)
 	{
 		for (x = 'a'; x <= 'z'; x++)
 			_putchar(x);
 			_putchar('\n');
 			repeat++;
 	}
-}
+}*/
