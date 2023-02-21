@@ -3,6 +3,7 @@
  * main - check the code
  *
  * Return: always 0
+ * print_alphabet: prints the alphabets
  */
 void print_alphabet(void)
 {
