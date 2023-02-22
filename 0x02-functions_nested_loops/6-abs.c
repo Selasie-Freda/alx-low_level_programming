@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _abs - checks for absolute number
+ * @i: number to check
  *
  * Return: number on success
  */
