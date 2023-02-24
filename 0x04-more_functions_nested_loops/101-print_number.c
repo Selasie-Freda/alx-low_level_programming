@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * print_number - writes input to screen
+ * print_number - prints number to the screen
+ * @n: number to be written to screen
  *
- * Return: 0
+ * Return: 0 (success)
  */
 void print_number(int n)
 {
