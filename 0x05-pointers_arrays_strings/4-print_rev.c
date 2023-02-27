@@ -16,7 +16,6 @@ void print_rev(char *s)
 	{
 		if (s[i] < 0)
 		{
-			_putchar('\n');
 			break;
 		}
 		else
