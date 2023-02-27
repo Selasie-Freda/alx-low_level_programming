@@ -9,7 +9,7 @@ void _puts(char *str)
 {
 	int i;
 
-	for (i = 0; i < 400; i++)
+	for (i = 0; i < 600; i++)
 	{
 		if (str[i] == '\0')
 		{
