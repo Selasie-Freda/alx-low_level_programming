@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcpy - acts in similar form as strcpy
- * @dest: argument
- * @src; argument
+ * dest: argument
+ * src; argument
  *
  * Return: the pointer to dest
  */
