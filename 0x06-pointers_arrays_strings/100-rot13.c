@@ -8,7 +8,7 @@ char *rot13(char *str)
 {
 	char offset, *r = str;
 
-	while(*str)
+	while (*str)
 	{
 		offset = (*str & 32) + 65;
 		if ((*str >= 'a' && *str <= 'z') || (*str >= 'A' && *str <= 'Z'))
