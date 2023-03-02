@@ -7,19 +7,19 @@
  */
 char *leet(char *str)
 {
+	char *r = str;
 	char alpha[] = {'a', 'e', 'o', 't', 'l'};
 	char numbers[] = {4, 3, 0, 7, 1};
 	int i;
 
-	while(*str)
+	while (*str)
 	{
 		for (i = 0; i < 5; i++)
 		{
 			if (*str == alpha[i] || *str == alpha[i] - 32)
-					*str = numbers[i] + '0';
-			
+				*str = numbers[i] + '0';
 		}
 		str++;
 	}
-	return (str);
+	return (r);
 }
