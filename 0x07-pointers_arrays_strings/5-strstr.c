@@ -11,18 +11,17 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	char *result;
-	int i = 0;
-
-	result = strstr(haystack, needle);
-
-	while (result[i])
+	unsigned int len;
+	/*Get length of needle for strncmp*/
+	len = 0;
+	while (needle[len] != '\0')
+		len++;
+	/*compare substring*/
+	while (*haystack != '\0')
 	{
-		if (i != '\0')
-			return (result);
-		else
-			return (NULL);
+		if (strncmp(haystack, needle, len) == 0)
+			return (haystack);
+		haystack++;
 	}
-	i++;
-	return (0);
+	return (NULL);
 }
