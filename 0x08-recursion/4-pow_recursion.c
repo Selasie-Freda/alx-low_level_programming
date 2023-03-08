@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _pw_recursion - returns the value of x raised to the power y
+ * _pow_recursion - returns the value of x raised to the power y
  * @x: base number
  * @y: indice
  * Return: -1 if y < 0
