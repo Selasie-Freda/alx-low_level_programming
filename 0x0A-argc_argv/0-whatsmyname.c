@@ -1,10 +1,12 @@
 #include <stdio.h>
 /**
+ * main - prints name of an executable file
+ *
  * @argc: argument count
  * @argv: argument vector
- * Return: 0
+ * Return: 0 success
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
